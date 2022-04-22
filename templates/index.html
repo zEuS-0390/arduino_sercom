@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Main Applciation</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    </head>
+    <body>
+        <div class="container-sm">
+            <div class="row pt-4 pl-4 pr-4">
+                <div class="col">
+                    <h4 class="h4 text-center">SELECTED OPTION: {{ selected_option }}</h4>
+                </div>
+            </div>
+            <div class="row p-4 ">
+                <div class="col">
+                    <div class="d-grid gap-2">
+                        <a class="btn btn-primary m-2" href="{{ url_for('count') }}">
+                            [1] COUNT
+                        </a>
+                        <a class="btn btn-success m-2" href="{{ url_for('linear') }}">
+                            [2] LINEAR
+                        </a>
+                        <a class="btn btn-warning m-2" href="{{ url_for('block') }}">
+                            [3] BLOCK
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="{{ url_for('static', filename='jquery-3.6.0.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='bootstrap.bundle.min.js') }}"></script>
+    </body>
+</html>
