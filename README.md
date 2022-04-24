@@ -1,4 +1,4 @@
-# Arduino Serial Communication with Web Application using Python
+# Serial Communication with Web Application
 
 <p align="center">
   <img name="schematic_diagram" src="https://user-images.githubusercontent.com/39390245/164982039-964e7269-26bf-46b6-8aa6-2a34177e2a08.png"/><br>
