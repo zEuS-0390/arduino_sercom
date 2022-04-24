@@ -1,3 +1,11 @@
+<a href="https://www.arduino.cc/">
+  <img src="https://img.shields.io/badge/Arduino-UNO-blue"/>
+</a>
+
+<a href="https://github.com/pallets/flask/">
+  <img src="https://img.shields.io/badge/Python-Flask-red"/>
+</a>
+
 # Serial Communication with Web Application
 
 <p align="center">
