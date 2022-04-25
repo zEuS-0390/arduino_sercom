@@ -13,6 +13,11 @@
   <label for="schematic_diagram">Schematic Diagram of the Arduino Circuit</label>
 </p>
 
+<p align="center">
+  <img name="web_application" src="https://user-images.githubusercontent.com/39390245/165005229-bef7a04f-674b-4511-bf19-8de4e3ec6fa2.png"/><br>
+  <label for="web_application">Web Application for Serial Communication</label>
+</p>
+
 ### Requirements:
 - Arduino UNO (Microcontroller)
 - Breadboard
